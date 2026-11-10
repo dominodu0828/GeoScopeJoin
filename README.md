@@ -6,11 +6,22 @@ claimed by this repository.
 
 ## Obtain the complete artifact
 
-Download `GeoScopeJoin-reproduction-v1.zip` from this repository's Releases and
-extract it. The ZIP contains the code, original source archives (including the
-withdrawn R2022A tile), point snapshots, historical per-session outputs, frozen
-protocols, reports, and input/file hashes. The Git source checkout alone does not
-contain the large inputs or run directories. Verify the ZIP against `SHA256SUMS.txt`.
+Download `GeoScopeJoin-reproduction-v1-deduplicated.zip` (263 MB) from this
+repository's Releases and verify against `SHA256SUMS-compact.txt`. Extract it and run:
+
+```sh
+python restore_artifact.py GeoScopeJoin-restored
+cd GeoScopeJoin-restored
+python verify_artifact.py
+```
+
+This lossless package stores identical snapshots once. Restoration recreates all
+7,172 original files and the complete inventory byte for byte (verified before
+publication). Allow 1.8 GB for the restored tree. It includes code, original source
+archives, point snapshots, historical session outputs, protocols and reports.
+The source ZIP alone does not include the large inputs or run directories.
+The old non-deduplicated archive name in the preserved internal README is
+superseded by the compact release distribution.
 
 ## Environment
 
