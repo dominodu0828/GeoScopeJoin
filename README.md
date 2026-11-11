@@ -6,14 +6,14 @@ claimed by this repository.
 
 ## Manuscript and revision evidence (12 November 2026)
 
-[Read the revised manuscript](GeoScopeJoin-2026-11-12.pdf) or [download its LaTeX sources and evidence](GeoScopeJoin-evidence-2026-11-12.zip). The PDF includes the four-tool Round 5 disclosure. Table V reports the amortization results for 1, 10, and 100 requests. The ZIP includes the session-based uncertainty analysis, the all-ten-session sensitivity check, the synthetic bidirectional NoData fixture, and the Round 2 window manifest.
+[Read the revised manuscript](GeoScopeJoin-2026-11-12.pdf) or [download its LaTeX sources and evidence](GeoScopeJoin-evidence-2026-11-12.zip). The PDF includes the four-tool Round 5 disclosure and cites the EDBT 2026 version of IMP. Table V reports the amortization results for 1, 10, and 100 requests. The ZIP includes the session-based uncertainty analysis, the all-ten-session sensitivity check, the synthetic bidirectional NoData fixture, and the Round 2 window manifest.
 
 To run the two revision checks, restore the [v1.0.0 reproduction artifact](https://github.com/dominodu0828/GeoScopeJoin/releases/tag/v1.0.0) as described below and extract the revision ZIP into a subdirectory named `paper_evidence_revision_20261112` under the restored root. Run the two scripts listed in the ZIP's README with the project dependencies installed.
 
 | File | SHA-256 |
 | --- | --- |
-| Manuscript PDF | `ebfc417038db6b3fbc86b3911b9f48d9123d44a96fd1172b5ad6bd15342065bb` |
-| Revision ZIP | `2abd6401d37df75d7cce2ee9879f83dc37f3e9817ebcb6c129c40eb480a1fdba` |
+| Manuscript PDF | `d7eee14ffc5edb329a553034a1d9ce235b0fe29061c94edc154f56193182f5ce` |
+| Revision ZIP | `f7d1c8a754059356a9b3ed9479b94a8cef015f5d53bb212cd31f00e50e7b4050` |
 
 ## Obtain the complete artifact
 
