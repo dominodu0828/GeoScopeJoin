@@ -6,14 +6,14 @@ claimed by this repository.
 
 ## Manuscript and revision evidence (12 November 2026)
 
-[Read the revised manuscript](GeoScopeJoin-2026-11-12.pdf) or [download its LaTeX sources and evidence](GeoScopeJoin-evidence-2026-11-12.zip). The PDF includes the four-tool Round 5 disclosure and cites the EDBT 2026 version of IMP. Table V reports the amortization results for 1, 10, and 100 requests. The ZIP includes the session-based uncertainty analysis, the all-ten-session sensitivity check, the synthetic bidirectional NoData fixture, and the Round 2 window manifest.
+[Read the revised manuscript](GeoScopeJoin-2026-11-12.pdf) or [download its LaTeX sources and evidence](GeoScopeJoin-evidence-2026-11-12.zip). The PDF includes the four-tool Round 5 disclosure and cites the EDBT 2026 version of IMP. Table V reports the amortization results for 1, 10, and 100 requests. The ZIP includes the session-based uncertainty analysis, the all-ten-session sensitivity check, the synthetic bidirectional NoData fixture, the Round 2 window manifest, and both files needed to verify the freeze-digest discrepancy in Section V-A. Compare the SHA-256 of evidence/freeze_g0.json with the freeze_sha256 field inside evidence/e1_report.json using the command in the ZIP README.
 
 To run the two revision checks, restore the [v1.0.0 reproduction artifact](https://github.com/dominodu0828/GeoScopeJoin/releases/tag/v1.0.0) as described below and extract the revision ZIP into a subdirectory named `paper_evidence_revision_20261112` under the restored root. Run the two scripts listed in the ZIP's README with the project dependencies installed.
 
 | File | SHA-256 |
 | --- | --- |
-| Manuscript PDF | `d7eee14ffc5edb329a553034a1d9ce235b0fe29061c94edc154f56193182f5ce` |
-| Revision ZIP | `f7d1c8a754059356a9b3ed9479b94a8cef015f5d53bb212cd31f00e50e7b4050` |
+| Manuscript PDF | `018805568d02bca3dd6d6245b4187078e24c849070ceb045fa5c0110a7b46be2` |
+| Revision ZIP | `8d59ade321966cb661c622d11613c4004b72d56a677736f91bf24d360a163ce8` |
 
 ## Obtain the complete artifact
 
